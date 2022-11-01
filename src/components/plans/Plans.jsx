@@ -20,7 +20,7 @@ const Plans = () => {
                 <div className="plan" key={i}>
                     {plans.icon}
                     <span>{plans.name}</span>
-                    <span>${plans.price}</span>
+                    <span>₹{plans.price}</span>
                     <div className="features">
                         {plans.features.map((feature,i)=>{
                             return(
